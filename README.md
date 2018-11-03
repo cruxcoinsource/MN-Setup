@@ -7,7 +7,7 @@ This guide will assist you in setting up a Crux Masternode on a Linux Server run
 1) **2500 (CUX) Crux coins.**
 2) **A Vultr VPS running Linux Ubuntu 16.04.**
 3) **A Windows local wallet.**
-4) **An SSH client such as [Putty](https://the.earth.li/~sgtatham/putty/latest/w32/putty-0.70-installer.msi)**
+4) **A SSH client such as [Putty](https://the.earth.li/~sgtatham/putty/latest/w32/putty-0.70-installer.msi)**
 ***
 ## Contents
 * **Section A**: Creating the VPS within [Vultr](https://www.vultr.com).
