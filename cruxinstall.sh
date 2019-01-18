@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.cruxcoin'
 COIN_DAEMON='cruxcoind'
 COIN_CLI='cruxcoin-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/cruxcoinsource/CruxCoin/files/2667184/CruxCoin-Headless-.Ubuntu-16.04.tar.gz'
+COIN_TGZ='https://github.com/cruxcoinsource/CruxCoin/files/2772699/CruxCoin-Daemon-.Ubuntu-16.04.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='cruxcoin'
 COIN_PORT=29118
@@ -47,7 +47,7 @@ function download_node() {
   echo -e "${GREEN}Downloading and Installing VPS $COIN_NAME Daemon${NC}"
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
-  tar xzvf CruxCoin-Headless-.Ubuntu-16.04.tar.gz
+  tar xzvf CruxCoin-Daemon-.Ubuntu-16.04.tar.gz
   cd rev >/dev/null 2>&1
   chmod +x $COIN_DAEMON $COIN_CLI
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
